@@ -5,29 +5,36 @@ Answer:
 
 What is a JDK composed of? Define each components?
 Answer:
-
+it a Java Development Kit. JDK is used for Java development as it provides the entire executable and binaries as well as tools required to compile, debug a Java program
+it contain JRE, JA VAC, JAR, KEYTOOL.
 What is an IDE?
 Answer:
+Java IDE (Integrated Development Environment) is a software application that enables users to write and debug Java programs more easily.
 
 What are some of the most popular Java IDEs available in the market?
 Answer:
+Eclips,intellij, netbeens, JDevelpoer.
 
 Explain the entire java life cycle.
-Answer:
+Answer: Editing the program
+        Compiling the source code
+        Executing the byte code
 
 What is a class?
-Answer:
+Answer: a class is a blueprint of objects.
+It Is a creation  of new objects of that class type.
 
 What is an object?
 Answer:
 
 What is the entry point of a Java project?
-Answer:
+Answer: The main() method
 
 Why is the main() method static?
-Answer:
+Answer: means that there is no need to create objects in order to access static methods or variables.
 
 Which class is the superclass of all classes?
+Object class
 Answer:
 
 What is difference between path and classpath variables?
@@ -41,12 +48,22 @@ Answer:
 
 What is Access Modifier?
 Answer:
+1/ public; accessible by all packages/classes in the same project
+2/ protected; accessible by all classes within the same package
+3/ private; accessible by only the class it was declared within
+
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic
+  * Inheritance. Classes can reuse code from other classes. Relationships and subclasses between objects can be assigned, enabling developers to reuse common logic while still maintaining a unique hierarchy
+  * Abstraction is a process where you show only “relevant” data and “hide” unnecessary details of an object from the user.
+  * Encapsulation: Encapsulation simply means binding object state(fields) and behaviour(methods) together. If you are creating class, you are doing encapsulation
+  * Polymorphism is a object oriented programming feature that allows us to perform a single action in different ways
 
 What is Java Package and which package is imported by default?
 Answer:
+The package is the organizer for or code.
+java.lang package.
 
 What is an API? List some API's that you have used so far.
 Answer:

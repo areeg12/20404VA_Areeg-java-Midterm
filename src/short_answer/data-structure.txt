@@ -2,34 +2,47 @@
 
 Why do we need data structure?
 Answer:
+Data structure is a way of sorting and organizing data in a computer so that it can be used efficiently.
+Also it provide mean to manage large amount of data efficiently.
 
 What are the various operations that can be performed on different data structures?
 Answer:
-
+* Array
+* Linked List
+* Stacks
+* Queues
 When would we use data structures in the real world?
 Answer:
+we use date structure in real life when with stocking. exp stock merchandise, grosery, book.
+
 
 What is an Array?
 Answer:
-
+group of similar data type elements, accessed by it index. the size of an array must be povided before storing data.
 What is the difference between Array and ArrayList?
 Answer:
-
+* Array It is mandatory to provide the size of an array while initializing it directly or indirectly.
+* We can create an instance of ArrayList without specifying its size. Java creates ArrayList of default size
 What is a LinkedList?
 Answer:
+its collection of multiple node where each element stores its own data and pointer to the location of the next element.
 
 How is an Array different from LinkedList?
 Answer:
+Size of the array must be specified at the time of array declaration/initialization.
+while Size of a Linked list grows/shrinks as and when new elements are inserted/deleted.
 
 What is a Queue?
-Answer:
+Answer: an ordered list of objects with its use limited to insert elements at the end of the list and deleting elements from the start of the list.
+used to hold the elements about to be processed in FIFO(First In First Out) order.
 
 What is a Stack (referring to data structures)?
 Answer:
-
+its an abstract data structure, is a collection of objects that are inserted and removed according to LIFO ( last in last out)
 What is FIFO and LIFO?
 Answer:
-
+FIFO( first in first out)
+LIFO ( last in last out)
 Explain Big O Notation?
 Answer:
 
