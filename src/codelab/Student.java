@@ -5,6 +5,7 @@ public class Student implements Comparable<Student> {
     private String firstName;
     private String lastName;
     private int numberOfExercisesSolved;
+    private int Average;
 
     public Student() {
     }
@@ -13,6 +14,7 @@ public class Student implements Comparable<Student> {
         this.firstName = firstName;
         this.lastName = lastName;
         this.numberOfExercisesSolved = numberOfExercisesSolved;
+        //this.Average = ()
     }
 
     public String getFirstName() {

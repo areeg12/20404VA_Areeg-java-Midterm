@@ -19,7 +19,7 @@ public class CsvReader {
 
     public static void main(String[] args) {
 
-        String csvFilePath = System.getProperty("user.dir") + "/src/codelab/status/roster.csv";
+        String csvFilePath = System.getProperty("user.dir") + "/src/codelab/data/roster.csv";
         String row;
         String csvSplitBy = ",";
         BufferedReader br;
@@ -45,10 +45,18 @@ public class CsvReader {
 
         for (Student student : roster) {
             System.out.println(convertNumberOfProblemsSolved(student));
+
         }
     }
 
+
+
     private static String convertNumberOfProblemsSolved(Student student) {
+        {
+            // Method to calculate average ..........
+            //System.out.println( ("The sum is =" + Integer.sum(student.getNumberOfExercisesSolved());
+
+        }
         String name = student.getFirstName();
 
         if (student.getNumberOfExercisesSolved() >= 250) {
