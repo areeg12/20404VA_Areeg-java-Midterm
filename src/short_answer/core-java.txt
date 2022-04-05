@@ -4,16 +4,13 @@ What is a programming language?
 Answer:
 
 What is a JDK composed of? Define each components?
-Answer:
-it a Java Development Kit. JDK is used for Java development as it provides the entire executable and binaries as well as tools required to compile, debug a Java program
+Answer:it a Java Development Kit. JDK is used for Java development as it provides the entire executable and binaries as well as tools required to compile, debug a Java program
 it contain JRE, JA VAC, JAR, KEYTOOL.
 What is an IDE?
-Answer:
-Java IDE (Integrated Development Environment) is a software application that enables users to write and debug Java programs more easily.
+Answer: Java IDE (Integrated Development Environment) is a software application that enables users to write and debug Java programs more easily.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
-Eclips,intellij, netbeens, JDevelpoer.
+Answer: Eclips,intellij, netbeens, JDevelpoer.
 
 Explain the entire java life cycle.
 Answer: Editing the program
@@ -25,7 +22,7 @@ Answer: a class is a blueprint of objects.
 It Is a creation  of new objects of that class type.
 
 What is an object?
-Answer:
+Answer: an object is an instance of a class. can be related to a real word object.
 
 What is the entry point of a Java project?
 Answer: The main() method
@@ -34,21 +31,20 @@ Why is the main() method static?
 Answer: means that there is no need to create objects in order to access static methods or variables.
 
 Which class is the superclass of all classes?
-Object class
-Answer:
+Answer: the Object class. java.lang.Object
 
 What is difference between path and classpath variables?
-Answer:
+Answer: In order to set CLASSPATH, you need to include all the directories which contain .class files and jar files  as required by the application
+In order to set PATH ,  JDK_HOME/bin directory needs to be included in PATH environment variable.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: in interface, by default all methods are public, fields are static and final whereas in abstract the fields can be nonstatic or nonfinal.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: no, both Interface and Abstract class are similar where we can't create objects.
 
 What is Access Modifier?
-Answer:
-1/ public; accessible by all packages/classes in the same project
+Answer: 1/ public; accessible by all packages/classes in the same project
 2/ protected; accessible by all classes within the same package
 3/ private; accessible by only the class it was declared within
 
@@ -61,25 +57,26 @@ Answer: Object-oriented programming (OOP) is a computer programming model that o
   * Polymorphism is a object oriented programming feature that allows us to perform a single action in different ways
 
 What is Java Package and which package is imported by default?
-Answer:
-The package is the organizer for or code.
+Answer: The package is the organizer for or code.
 java.lang package.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer:  Application Programming Interface (API) is the area of Java development kit (JDK)
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: multiple inheritances is not allowed in java. because want to prevent ambiguity
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer: Method overloading is a feature of Java in which a class has more than one method of the same name and their parameters are different.
+The number of parameters in two methods.
+The data types of the parameters of methods.
+The Order of the parameters of methods.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: An Exception is an unwanted event that interrupts the normal flow of the program.
 
 What is static keyword? When and how do we use it?
-Answer:
-* The static keyword in Java is used to share the same variable or method of a given class
+Answer: * The static keyword in Java is used to share the same variable or method of a given class
 What is final keyword? When and how do we use it?
 Answer:
 * final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
@@ -189,31 +186,34 @@ Can you guarantee the garbage collection process?
 Answer:
 
 What is the difference between stack and heap in Java?
-Answer:git
+Answer:Memory shortage problem is more likely to happen in stack whereas the main issue in heap memory is fragmentation.
+In a stack, the allocation and de-allocation are automatically done by the compiler whereas in heap, it needs to be done by the programmer manually.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: Reflection is an API which is used to examine or modify the behavior of methods, classes, interfaces at runtime.
 
 What is multithreading in Java?
-Answer:
+Answer: is a multi-threaded programming language which means we can develop multi-threaded program using Java
 
 What is synchronization in Java?
-Answer:
+Answer: is the capability to control the access of multiple threads to any shared resource
 
 What is a Framework?
-Answer:
+Answer: is platform of pre-written codes used by Java developers to develop Java applications or web applications
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer:  Selenium, JUnit, Serenity,TestNG
 
 What are jUnit and testNG?
-Answer:
+Answer:jUnit This particular framework aims at performing unit testing where a code snippet can be passed in the path, via functions or methods
+TestNG is an open-source testing framework and inspired by the other two prominent frameworks – JUnit and NUnit with some new additional functionalities
 
 What are the dependencies for this project?
 Answer:
 
 What is dependency injection in Java?
-Answer:
+Answer: it is used design pattern that helps to separate components’ behavior from dependency resolution.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer: static binding is binding which can be resolved at compile time by the compiler.
+In Dynamic binding compiler doesn’t decide the method to be called.

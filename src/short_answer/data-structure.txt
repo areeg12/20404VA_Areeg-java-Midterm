@@ -1,35 +1,27 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
-Data structure is a way of sorting and organizing data in a computer so that it can be used efficiently.
+Answer: Data structure is a way of sorting and organizing data in a computer so that it can be used efficiently.
 Also it provide mean to manage large amount of data efficiently.
 
 What are the various operations that can be performed on different data structures?
-Answer:
-* Array
+Answer: * Array
 * Linked List
 * Stacks
 * Queues
 When would we use data structures in the real world?
-Answer:
-we use date structure in real life when with stocking. exp stock merchandise, grosery, book.
-
+Answer: we use date structure in real life when with stocking. exp stock merchandise, grosery, book.
 
 What is an Array?
-Answer:
-group of similar data type elements, accessed by it index. the size of an array must be povided before storing data.
+Answer: group of similar data type elements, accessed by it index. the size of an array must be povided before storing data.
 What is the difference between Array and ArrayList?
-Answer:
-* Array It is mandatory to provide the size of an array while initializing it directly or indirectly.
+Answer: * Array It is mandatory to provide the size of an array while initializing it directly or indirectly.
 * We can create an instance of ArrayList without specifying its size. Java creates ArrayList of default size
 What is a LinkedList?
-Answer:
-its collection of multiple node where each element stores its own data and pointer to the location of the next element.
+Answer: its collection of multiple node where each element stores its own data and pointer to the location of the next element.
 
 How is an Array different from LinkedList?
-Answer:
-Size of the array must be specified at the time of array declaration/initialization.
+Answer: Size of the array must be specified at the time of array declaration/initialization.
 while Size of a Linked list grows/shrinks as and when new elements are inserted/deleted.
 
 What is a Queue?
@@ -37,14 +29,12 @@ Answer: an ordered list of objects with its use limited to insert elements at th
 used to hold the elements about to be processed in FIFO(First In First Out) order.
 
 What is a Stack (referring to data structures)?
-Answer:
-its an abstract data structure, is a collection of objects that are inserted and removed according to LIFO ( last in last out)
+Answer: it is an abstract data structure, is a collection of objects that are inserted and removed according to LIFO ( last in last out)
 What is FIFO and LIFO?
-Answer:
-FIFO( first in first out)
+Answer: FIFO( first in first out)
 LIFO ( last in last out)
 Explain Big O Notation?
-Answer:
+Answer: Big O Notation is the language we use for talking about how long an algorithm takes to run.
 
 What is the best case to search an element from an array?
 Answer:
@@ -53,32 +43,36 @@ What is the worst case to search an element from an array?
 Answer:
 
 Describe what a tree data structure is?
-Answer:
+Answer: Trees are a collection of nodes, and they are linked with pointers, representing the hierarchical connections between the nodes.
 
 Describe what a graph data structure is?
-Answer:
+Answer: A Graph is a non-linear data structure consisting of nodes and edges.
+The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashTable Every method is synchronized while HashMap No method is synchronized
+
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are stored
+HashMap uses its static inner class Node<K,V> for storing the entries into the map.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which is not present in the array
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: Create a new array of the same length and copy each element.
 
 What is DFS and BFS?
-Answer:
+Answer: DFS stands for Depth First Search, DFS(Depth First Search) uses Stack data structure.
+BFS stands for Breadth First Search, BFS(Breadth First Search) uses Queue data structure for finding the shortest path.
 
 What is Recursion?
-Answer:
+Answer: Recursion is the technique of making a function call itself.
 
 What are linear and non-linear data Structures?
-Answer:
-
+Answer:  non-linear Structure where data elements are not arranged sequentially or linearly
+linear Structure when each and every element is attached to its previous and next adjacent
 
 Outline different sorting algorithms and their time complexities:
 
