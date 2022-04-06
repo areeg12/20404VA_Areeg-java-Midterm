@@ -11,4 +11,23 @@ public class Palindrome {
 
     // Implement here
 
-}
+
+    static String sentence = "RACECAR";
+
+    public static void main(String[] args) {
+
+
+
+
+            char[] sentenceArray = sentence.toCharArray();
+            int n = sentenceArray.length;
+
+            for (int i = n - 1; i >= 0; i--) {
+                System.out.print(sentenceArray[i]);
+            }
+
+
+        }
+
+
+    }
