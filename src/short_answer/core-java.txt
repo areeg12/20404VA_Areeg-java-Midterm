@@ -61,7 +61,8 @@ Answer: The package is the organizer for or code.
 java.lang package.
 
 What is an API? List some API's that you have used so far.
-Answer:  Application Programming Interface (API) is the area of Java development kit (JDK)
+Answer:  Application Programming Interface (API) is mechanisms that enable two software components to communicate with each other using a set of definitions and protocols
+
 
 Does java support multiple inheritance? Why or why not?
 Answer: multiple inheritances is not allowed in java. because want to prevent ambiguity
@@ -78,11 +79,9 @@ Answer: An Exception is an unwanted event that interrupts the normal flow of the
 What is static keyword? When and how do we use it?
 Answer: * The static keyword in Java is used to share the same variable or method of a given class
 What is final keyword? When and how do we use it?
-Answer:
-* final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
+Answer: * final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
 Explain the difference between final, finally and finalize?
-Answer:
-*Final  (a) Once declared, final variable becomes constant and cannot be modified.
+Answer: *Final  (a) Once declared, final variable becomes constant and cannot be modified.
         (b) final method cannot be overridden by sub class.
         (c) final class cannot be inherited.
 * Finally (a) finally block runs the important code even if exception occurs or not.
@@ -90,35 +89,28 @@ Answer:
 *  Finalize method performs the cleaning activities with respect to the object before its destruction
 
 What is a constructor?
-Answer:
-* a constructor is a block of codes similar to the method. It is called when an instance of the class is created
+Answer: * a constructor is a block of codes similar to the method. It is called when an instance of the class is created
 Can we have multiple constructors in a class?
-Answer:
-* Yes, a Class in  can have more than Constructor.
+Answer: * Yes, a Class in  can have more than Constructor.
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
-* If a class does not explicitly declare any, the Java compiler automatically provides a no-argument constructor, called the default constructor.
+Answer: * If a class does not explicitly declare any, the Java compiler automatically provides a no-argument constructor, called the default constructor.
 What is "this" keyword in Java? When would we use it?
-Answer:
-* The "this" keyword refers to the current object in a method or constructor.
+Answer: * The "this" keyword refers to the current object in a method or constructor.
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
-  * The super keyword in java is a reference variable that is used to refer parent class objects
+Answer:  * The super keyword in java is a reference variable that is used to refer parent class objects
   *  Use of super with variables and with the methods.
 
 What does JVM stand for?
-Answer:
-JVM is Java Virtual Machine, is an engine that provides a runtime environment to drive the Java Code or applications.
+Answer: JVM is Java Virtual Machine, is an engine that provides a runtime environment to drive the Java Code or applications.
 It converts Java bytecode into machine language
 Is JVM platform independent?
 Answer:
 * JVM is highly platform dependent.
 What version of Java are you using?
-Answer:
+Answer: version 11.0.14
 
 What does JAR stand for?
-Answer:
-* JAR stands for Java ARchive.
+Answer: * JAR stands for Java ARchive.
 It's a file format based on the popular ZIP file format and is used for aggregating many files into one
 What is the difference between JDK and JVM?
 Answer:
@@ -130,25 +122,19 @@ Answer:
  * The JRE is the part of Java that creates the JVM, BUT It is the Java platform component that executes source
 
 Explain the difference between compile-time and run-time?
-Answer:
-
-*  compile-time is errors that occur when you violate the rules of writing syntax.
+Answer: *  compile-time is errors that occur when you violate the rules of writing syntax.
 *  Run-Time is errors which occur during program execution(run-time) after successful compilation are called run-time errors
 What is heap?
-Answer:
-* Heap space is used by java runtime to allocate memory to Objects
+Answer: * Heap space is used by java runtime to allocate memory to Objects
 How does Java manage its memory?
-Answer:
-* Java uses an automatic memory management system called a garbage collector. memory management is the process of allocation and de-allocation of objects, called Memory management.
+Answer: * Java uses an automatic memory management system called a garbage collector. memory management is the process of allocation and de-allocation of objects, called Memory management.
 Java does memory management automatically
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
-* String is immutable whereas StringBuffer and StringBuilder are mutable classes.
+Answer: * String is immutable whereas StringBuffer and StringBuilder are mutable classes.
 * StringBuffer is thread-safe and synchronized whereas StringBuilder is not. That’s why StringBuilder is faster than StringBuffer.
 
 What is Singleton class?
-Answer:
-* a singleton class is a class that can have only one object (an instance of the class) at a time.
+Answer: * a singleton class is a class that can have only one object (an instance of the class) at a time.
 What is Serialization and Deserialization?
 Answer:
 * Java serialization is a mechanism to transform an object into a byte stream.
@@ -176,8 +162,7 @@ Answer:
 * the difference between serial and parallel garbage collector is that serial garbage collector uses a single thread for garbage collection process,
  while the parallel garbage collector uses multiple threads for the garbage collection.
 What does JIT stands for?
-Answer:
-Just-In-Time compiler is one of the integral parts of the Java Runtime Environment.
+Answer: Just-In-Time compiler is one of the integral parts of the Java Runtime Environment.
 It is mainly responsible for performance optimization of Java-based applications at run time or execution time.
 Explain the process of Java garbage collection?
 Answer:

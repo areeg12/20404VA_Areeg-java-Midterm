@@ -10,7 +10,7 @@ public class UseQueue {
          * Demonstrate how to use Queue that includes add, peek, remove & poll elements.
          * Use For-Each loop and While-Loop with Iterator to retrieve data_structures.data.
          *
-         * Store and retrieve data_structures.data from/to a database table.
+         * Store and retrieve data from/to a database table.
          */
 
 
@@ -31,6 +31,10 @@ public class UseQueue {
 
         topElement = myQueue.peek();
         System.out.println("TOP ELEMENT: " + topElement); // Effective Java
+
+        String removeElement =myQueue.remove();
+        System.out.println("remove (top) ELEMENT:" +removeElement); // Effective Java
+
 
 
 

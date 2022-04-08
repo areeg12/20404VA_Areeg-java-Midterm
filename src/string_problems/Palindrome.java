@@ -20,11 +20,15 @@ public class Palindrome {
 
 
             char[] sentenceArray = sentence.toCharArray();
-            int n = sentenceArray.length;
+           int n = sentenceArray.length;
 
             for (int i = n - 1; i >= 0; i--) {
-                System.out.print(sentenceArray[i]);
+               System.out.print(sentenceArray[i]);
             }
+
+
+
+
 
 
         }
