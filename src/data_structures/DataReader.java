@@ -1,6 +1,11 @@
 package data_structures;
 
-public class DataReader {
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class DataReader{
 
     /**
      * Create an API to read the .txt file and print it to the console.
@@ -17,9 +22,21 @@ public class DataReader {
      * Use For-Each & While-loop with Iterator to retrieve/print data.
      **/
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+        BufferedReader reader = new BufferedReader(new FileReader("\"user.dir\") + \"/src/data_structures/data/self-driving-car.txt\""));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+        reader.close();
+
 
     }
 
-}
+    }
+
+
+
+
+

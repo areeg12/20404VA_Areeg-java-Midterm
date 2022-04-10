@@ -12,9 +12,10 @@ public class UnitTestConnectDB {
 
         // region readAllTest
         SharedStepsDatabase ssdb = new SharedStepsDatabase();
-        String query = "SELECT * FROM EMPLOYEES.EMPLOYEES E INNER JOIN DEPT_EMP DE ON E.EMP_NO = DE.EMP_NO " +
-                       "WHERE E.FIRST_NAME LIKE 'Alain'";
-
+       // String query = "SELECT * FROM EMPLOYEES.EMPLOYEES E INNER JOIN DEPT_EMP DE ON E.EMP_NO = DE.EMP_NO " +
+                     //  "WHERE E.FIRST_NAME LIKE 'Alain'";
+          String query = ("SELECT * FROM sakila.CITY");
+          ssdb.executeQueryReadAll(query);
         List<List<String>> data = ssdb.executeQueryReadAll(query);
 
         if (data != null) {
@@ -23,6 +24,7 @@ public class UnitTestConnectDB {
                     System.out.print(cell + "\t\t\t\t");
                 }
                 System.out.println();
+                 //ssdb.executeQueryReadAll()
             }
         }
 

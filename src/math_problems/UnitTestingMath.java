@@ -1,6 +1,7 @@
 package math_problems;
 
 import string_problems.Anagram;
+import string_problems.DuplicateWord;
 
 public class UnitTestingMath {
 
@@ -16,12 +17,14 @@ public class UnitTestingMath {
     public static void main(String[] args) {
 
 
-       // Anagram Anagram = new Anagram();
-       // System.out.println(Anagram.);
 
+      // int lowestNumberResult= LowestNumber.lowestNumber(());
+      //  System.out.println(LowestNumber);
 
-        int factorialResult=Factorial.factorial();
+        int factorialResult=Factorial.factorial((9));
         System.out.println(factorialResult);
+
+
 
 
     }

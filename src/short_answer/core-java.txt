@@ -1,11 +1,18 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:A programming language is a computer language that is used by programmers (developers) to communicate with computers.
+It is a set of instructions written in any specific language ( C, C++, Java, Python) to perform a specific task.
 
 What is a JDK composed of? Define each components?
-Answer:it a Java Development Kit. JDK is used for Java development as it provides the entire executable and binaries as well as tools required to compile, debug a Java program
-it contain JRE, JA VAC, JAR, KEYTOOL.
+Answer:The JDK is a key platform component for building Java applications. At its heart is the Java compiler
+
+      JDK is a software development environment used for making applets and Java applications. The full form of JDK is Java Development Kit. Java developers can use it on Windows, macOS, Solaris, and Linux. JDK helps them to code and run Java programs. It is possible to install more than one JDK version on the same computer.
+       Here are the main reasons for using JDK:
+           • JDK contains tools required to write Java programs and JRE to execute them.
+           • It includes a compiler, Java application launcher, Appletviewer, etc.
+           • Compiler converts code written in Java into byte code.
+           • Java application launcher opens a JRE, loads the necessary class, and executes its main method.
 What is an IDE?
 Answer: Java IDE (Integrated Development Environment) is a software application that enables users to write and debug Java programs more easily.
 
@@ -165,7 +172,7 @@ What does JIT stands for?
 Answer: Just-In-Time compiler is one of the integral parts of the Java Runtime Environment.
 It is mainly responsible for performance optimization of Java-based applications at run time or execution time.
 Explain the process of Java garbage collection?
-Answer:
+Answer: Java garbage collection is an automatic process. Automatic garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects
 
 Can you guarantee the garbage collection process?
 Answer:
